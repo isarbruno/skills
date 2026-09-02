@@ -1,23 +1,23 @@
 ---
 name: anti-cringe-writing
-description: 'Apply every time Claude drafts artifact prose — slides, decks, documents, reports, blog posts, LinkedIn/newsletter, proposals, UI copy, emails, Slack/Notion writing, headlines, taglines. Prevents AI-marketing register: LinkedIn-bro rhythm, triadic fragments, "Not X. Y." reveals, abstract noun stacks, manifesto voice, pseudo-koans, "Mehr als nur X", forced contrasts, hook questions, hidden-truth intensifiers ("actually", "really"). Bans em dashes outright. Enforces full sentences, concrete over abstract, direct address, one claim per line, truth gate, evidence locality, humble register. Triggers automatically on any prose-bearing artifact — DE or EN — even without explicit "writing" or "copy" keywords. Apply alongside format skills (pptx, docx, slide-design): those govern layout, this governs the words. Do NOT trigger for code, raw data, or verbatim translations of user text.'
+description: 'Apply every time Claude drafts artifact prose: slides, decks, documents, reports, blog posts, LinkedIn/newsletter, proposals, UI copy, emails, Slack/Notion writing, headlines, taglines. Prevents AI-marketing register: LinkedIn-bro rhythm, triadic fragments, "Not X. Y." reveals, abstract noun stacks, manifesto voice, pseudo-koans, "Mehr als nur X", forced contrasts, hook questions, hidden-truth intensifiers ("actually", "really"). Bans em dashes outright. Enforces full sentences, concrete over abstract, direct address, one claim per line, truth gate, evidence locality, humble register. Triggers automatically on any prose-bearing artifact, DE or EN, even without explicit "writing" or "copy" keywords. Apply alongside format skills (pptx, docx, slide-design): those govern layout, this governs the words. Do NOT trigger for code, raw data, or verbatim translations of user text.'
 ---
 
 # Anti-Cringe Writing
 
-AI-marketing register is the failure mode this skill prevents. LinkedIn-bro rhythm, triadic fragments, abstract noun stacks, manifesto voice, pseudo-koans, "Mehr als nur X" — moves that make polished output read as artificial, salesy, or empty. Below: what to avoid, what to do instead, how to calibrate by surface.
+AI-marketing register is the failure mode this skill prevents. LinkedIn-bro rhythm, triadic fragments, abstract noun stacks, manifesto voice, pseudo-koans and "Mehr als nur X" all make polished output read as artificial, salesy, or empty. Below: what to avoid, what to do instead, how to calibrate by surface.
 
 ## Top-level rule
 
-**Be humble, not salesy.** Persuasive register is reserved for surfaces that exist to persuade — sales pages, value-prop sections, pitch opens. Most surfaces are *functional* (UI, navigation, closing slides, transitions, footer text) or *social* (greetings, announcements, thanks). Applying persuasive register to a functional or social surface is the single biggest source of cringe.
+**Be humble, not salesy.** Persuasive register is reserved for surfaces that exist to persuade: sales pages, value-prop sections, pitch opens. Most surfaces are *functional* (UI, navigation, closing slides, transitions, footer text) or *social* (greetings, announcements, thanks). Applying persuasive register to a functional or social surface is the single biggest source of cringe.
 
-Self-check on every line: *Am I trying to sell something here? Does this surface actually call for selling?* If no — strip the persuasive register and let the line do its functional job.
+Self-check on every line: *Am I trying to sell something here? Does this surface actually call for selling?* If no, strip the persuasive register and let the line do its functional job.
 
 ## The truth gate
 
-Every claim has to be defensible. Specific-but-false is worse than vague — it sounds confident.
+Every claim has to be defensible. Specific-but-false is worse than vague, because it sounds confident.
 
-Example of failing the truth gate: *"Was wäre, wenn dein Team morgen aufwacht und die Hälfte der Arbeit schon erledigt ist?"* — agentic AI doesn't halve work; it changes the work and usually increases output volume. The hook is built on a false premise.
+Example of failing the truth gate: *"Was wäre, wenn dein Team morgen aufwacht und die Hälfte der Arbeit schon erledigt ist?"* Agentic AI doesn't halve work; it changes the work and usually increases output volume. The hook is built on a false premise.
 
 If a claim can't survive scrutiny, change the claim. Don't dress up a falsehood in vivid language.
 
@@ -56,7 +56,7 @@ Still permitted: the hyphen in compounds (in-app, customer-facing) and the en da
 
 German note: the Gedankenstrich is standard German typography, so this rule deliberately deviates from Duden convention. Use a comma, a colon, or a new sentence instead. German prose survives it.
 
-## Anti-patterns — never use
+## Anti-patterns: never use
 
 ### Rhythmic moves (worst category)
 
@@ -72,27 +72,27 @@ German note: the Gedankenstrich is standard German typography, so this rule deli
 - **Abstract noun stack.** "Clarity, alignment, momentum." Buzzwords stapled together.
 - **Adjective spirals.** "Powerful, intuitive, seamless." Same trick, worse offenders.
 - **Pseudo-koan.** "The best routine is the one you forget you set up." Pretends to be profound, empty on second read.
-- **"Not X. Y." with abstract Y.** Contrast structure is fine — Y has to be concrete (e.g. "infinite interns") rather than abstract ("a teammate").
+- **"Not X. Y." with abstract Y.** Contrast structure is fine, but Y has to be concrete (e.g. "infinite interns") rather than abstract ("a teammate").
 - **Number-driven cadence.** "10x your output. 100x your reach." Marketing math.
 
 ### Voice moves
 
-- **Manifesto voice — "Weil [audience] verdient X" / "Because every X deserves Y".** Faux-purposeful, customer-flattering.
-- **Hook question — "Was wäre, wenn..." / "Ever wondered..." / "What if...".** LinkedIn convention; almost always built on a false premise.
-- **Hidden-truth intensifier — "actually", "really", "in fact", "the truth is".** "What the last 300 issues actually contain." "How slow the channel really is." "What this really means for your team." The word announces that a myth is about to be punctured, which frames the reader as previously mistaken and the writer as the one with access. Test: delete the intensifier. If the sentence still says something, it never needed it. If the sentence collapses, the intensifier was doing the work, which means there was no finding.
-- **The unearned "you".** "For the way you actually work" — when no specific user need has been established.
+- **Manifesto voice: "Weil [audience] verdient X" / "Because every X deserves Y".** Faux-purposeful, customer-flattering.
+- **Hook question: "Was wäre, wenn..." / "Ever wondered..." / "What if...".** LinkedIn convention; almost always built on a false premise.
+- **Hidden-truth intensifier: "actually", "really", "in fact", "the truth is".** "What the last 300 issues actually contain." "How slow the channel really is." "What this really means for your team." The word announces that a myth is about to be punctured, which frames the reader as previously mistaken and the writer as the one with access. Test: delete the intensifier. If the sentence still says something, it never needed it. If the sentence collapses, the intensifier was doing the work, which means there was no finding.
+- **The unearned "you".** "For the way you actually work", used when no specific user need has been established.
 - **"Welcome to the future of X" / "Reimagining X" / "Redefining X" / "X neu gedacht".** Always cringe, never earned.
-- **Experiential cliché — "Erleben Sie X".** Same family.
+- **Experiential cliché: "Erleben Sie X".** Same family.
 
-## Positive principles — what to do instead
+## Positive principles: what to do instead
 
-1. **Full sentences over fragments.** Default to subject-verb-object joined by commas. A fragment is a tool, not a default — earn it.
+1. **Full sentences over fragments.** Default to subject-verb-object joined by commas. A fragment is a tool, not a default. Earn it.
 2. **Concrete over abstract.** "Infinite interns" beats "teammate". "Cuts response time from days to hours" beats "brings clarity and momentum". Reach for the slightly weird-but-vivid term over the polished one.
-3. **Direct address with action verbs.** Reader as agent doing something — not audience being addressed about something. "Get your hands dirty" / "Wir zeigen euch, wie ihr" / "enables you" / "We need to".
+3. **Direct address with action verbs.** Reader as agent doing something, not audience being addressed about something. "Get your hands dirty" / "Wir zeigen euch, wie ihr" / "enables you" / "We need to".
 4. **One claim, not three.** Where instinct says "stack three parallel things", ship the most testable one and drop the rest.
 5. **Specific, true claims over rhythmic moves.** "Adoption is not enough" is a position someone could disagree with. "It's about rebuilding how we work" is just a vibe. Pick the claim every time.
-6. **Cut when there's nothing to say.** If a line exists only to fill space or add rhythm, delete it. Empty space beats filler. Slide subtitles, hero sublines, callout boxes — most of these are deletable.
-7. **Negation is fine — empty contrast is not.** "Not X, Y" works if Y carries content. "AI agents are not a tool, they are like infinite interns" works. "AI agents aren't a tool. They're a teammate" doesn't.
+6. **Cut when there's nothing to say.** If a line exists only to fill space or add rhythm, delete it. Empty space beats filler. Slide subtitles, hero sublines, callout boxes are usually deletable.
+7. **Negation is fine, empty contrast is not.** "Not X, Y" works if Y carries content. "AI agents are not a tool, they are like infinite interns" works. "AI agents aren't a tool. They're a teammate" doesn't.
 8. **Collegial register.** Capable person to capable people. Not corp-formal, not LinkedIn-deep. "Keep trying" / "let me know what breaks" / "re-visit" are in-register; "elevate your workflow" is not.
 
 ## Surface-specific rules
@@ -113,7 +113,7 @@ Different surfaces call for different registers. These override the general prin
 - No question hooks. They're almost always built on false premises and read as LinkedIn-bro.
 - Open with: counter-take, specific observation, or stat that earns the read.
 - The claim has to survive expert scrutiny. If you wouldn't be able to defend the claim in front of an experienced practitioner in the relevant field, don't write it.
-- Punchy is allowed here — but the punch comes from specificity, not cadence.
+- Punchy is allowed here, but the punch comes from specificity, not cadence.
 
 ### Proposal copy
 
@@ -126,37 +126,37 @@ Different surfaces call for different registers. These override the general prin
 - Functional. Describe the state, point to the next action. That's the whole job.
 - Empty states: "Noch keine Fragebögen zugewiesen." Not "Weniger Tabellen. Mehr Wirkung."
 - Button labels, navigation, footer text, error messages: zero tagline space. State what the surface does.
-- A small directive that helps the user is in-register: "Vor dem Schließen speichern." That explains the why and points to action — that's still functional.
+- A small directive that helps the user is in-register: "Vor dem Schließen speichern." That explains the why and points to action, so it's still functional.
 
 ### Customer-facing email
 
-- Direct, professional but warm. "Wir zeigen Ihnen, wie..." voice — not manifesto voice.
+- Direct, professional but warm. "Wir zeigen Ihnen, wie..." voice, not manifesto voice.
 - One ask per email, stated explicitly.
-- Sign-off: simple. No "Excited to hear your thoughts!" — just a plain closing line.
+- Sign-off: simple. No "Excited to hear your thoughts!", just a plain closing line.
 
 ### Internal Slack / Notion
 
 - Collegial, direct. No "I'm excited to announce..." filler.
-- Lead with the thing. Follow with what you want from people. End with "let me know what breaks" or equivalent — expect iteration.
+- Lead with the thing. Follow with what you want from people. End with "let me know what breaks" or equivalent, because you expect iteration.
 - Imperative voice in instructions, lowercase casual in announcements.
 
 ## DE-specific anti-patterns
 
 German marketing has its own moves. Add these to the rhythmic/voice category above:
 
-- "Vom X zum Y" — vom Excel zum Audit, vom Chaos zur Klarheit.
-- "Mehr als nur X" — even more common in DE than EN; same disposal: delete.
-- "Was wäre, wenn..." — hook question.
-- "Genau dafür gibt es Y" — manifesto pivot.
-- "Weil jedes X Y verdient (hat)" — manifesto voice.
-- "Weniger X. Mehr Y." — forced contrast.
-- "Erleben Sie X" — experiential cliché.
-- "X neu gedacht" — Reimagining-equivalent.
-- "Ihr Partner für nachhaltige/zuverlässige/sichere Y" — partner-voice cliché.
+- "Vom X zum Y": vom Excel zum Audit, vom Chaos zur Klarheit.
+- "Mehr als nur X": even more common in DE than EN; same disposal: delete.
+- "Was wäre, wenn...": hook question.
+- "Genau dafür gibt es Y": manifesto pivot.
+- "Weil jedes X Y verdient (hat)": manifesto voice.
+- "Weniger X. Mehr Y.": forced contrast.
+- "Erleben Sie X": experiential cliché.
+- "X neu gedacht": Reimagining-equivalent.
+- "Ihr Partner für nachhaltige/zuverlässige/sichere Y": partner-voice cliché.
 
 ## Calibration examples
 
-These pair cringe lines with their accepted rewrites. Use them as anchors when in doubt — the pattern of transformation matters more than the specific words.
+These pair cringe lines with their accepted rewrites. Use them as anchors when in doubt. The pattern of transformation matters more than the specific words.
 
 | Cringe | Rewrite |
 |---|---|
@@ -196,11 +196,11 @@ For every line of copy you produce, in order:
 8. **Cut check.** Could this line be deleted entirely without loss? If yes, delete it. Empty space beats filler.
 9. **Salesy check.** Am I in pitch mode where pitch mode isn't called for?
 
-If (8) says yes, cut the line. If any other check fails, rewrite from scratch — don't sand the edges of cringe copy and hope it lands.
+If (8) says yes, cut the line. If any other check fails, rewrite from scratch. Don't sand the edges of cringe copy and hope it lands.
 
 ## What this skill doesn't do
 
-- Doesn't tell you *what* to write — only what to avoid and what register to aim for. The content still has to come from the task.
+- Doesn't tell you *what* to write, only what to avoid and what register to aim for. The content still has to come from the task.
 - Doesn't override the user's explicit instructions. If the user says "make it punchy" or "give me five tagline options for a campaign," do that. The skill is the default; explicit user instructions override.
 - Doesn't replace slide-design or similar layout/design skills. Those govern layout, visual hierarchy, color, emphasis. This skill governs the words. Apply both on slide work.
 - Doesn't apply to code, technical documentation the user is reading (not writing), or verbatim translations of the user's own words.
